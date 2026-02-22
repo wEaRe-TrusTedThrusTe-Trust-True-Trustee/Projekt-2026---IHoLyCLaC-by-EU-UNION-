@@ -1,0 +1,93 @@
+{
+  "project": {
+    "name": "Projekt-2026 - IHoLyCLaC by EU-UNION",
+    "concept_by": "Daniel Pohls",
+    "year": 2026,
+    "trademark": "Hnoss - by Government"
+  },
+  "registration": {
+    "location": "Detmold",
+    "date": "2026-02-22",
+    "time": "06:28",
+    "timezone": "TimeCLock+"
+  },
+  "patent_offices": {
+    "EUIPO": {
+      "name": "European Union Intellectual Property Office",
+      "enabled": true,
+      "automatic_processing": true
+    },
+    "EPA": {
+      "name": "European Patent Agency",
+      "enabled": true,
+      "automatic_processing": true
+    },
+    "WIPO": {
+      "name": "World Intellectual Property Organization",
+      "enabled": true,
+      "automatic_processing": true
+    }
+  },
+  "jurisdictions": {
+    "EU-UNION": {
+      "name": "European Union",
+      "type": "Union",
+      "enabled": true,
+      "government_partnership": true
+    },
+    "Australia": {
+      "name": "Australia",
+      "type": "Government",
+      "enabled": true,
+      "government_partnership": true
+    },
+    "USA": {
+      "name": "United States of America",
+      "type": "Government",
+      "enabled": true,
+      "government_partnership": true
+    },
+    "Spain": {
+      "name": "Spain",
+      "type": "Government",
+      "enabled": true,
+      "government_partnership": true
+    },
+    "Switzerland": {
+      "name": "Switzerland",
+      "type": "Government",
+      "enabled": true,
+      "government_partnership": true
+    },
+    "Italy": {
+      "name": "Italy",
+      "type": "Government",
+      "enabled": true,
+      "government_partnership": true
+    },
+    "Portugal": {
+      "name": "Portugal",
+      "type": "Government",
+      "enabled": true,
+      "government_partnership": true
+    },
+    "Vatican_City": {
+      "name": "Vatican City",
+      "type": "Government",
+      "enabled": true,
+      "government_partnership": true
+    }
+  },
+  "expert_mode": {
+    "enabled": true,
+    "automatic_validation": true,
+    "automatic_registration": true,
+    "multi_jurisdiction_support": true
+  },
+  "features": {
+    "patent_automatic": true,
+    "experten_modus": true,
+    "regulatory_compliance": true,
+    "trademark_protection": true
+  }
+}
