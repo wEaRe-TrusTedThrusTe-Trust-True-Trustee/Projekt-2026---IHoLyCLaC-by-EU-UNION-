@@ -11,10 +11,18 @@ Patent Automatic Expert Mode System for:
 Trademark: Hnoss - by Government
 """
 
+import logging
 from dataclasses import dataclass
 from datetime import datetime
 from enum import Enum
 from typing import List, Optional, Dict
+
+# Configure logging
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+)
+logger = logging.getLogger(__name__)
 
 
 class PatentOffice(Enum):
@@ -140,9 +148,10 @@ class PatentExpertSystem:
         """Register patent with specified offices"""
         # Automatic registration for EU-UNION system
         for office in application.patent_offices:
-            print(f"Registering with {office.value}...")
+            logger.info(f"Registering application {application.application_id} with {office.value}")
         
         application.status = PatentStatus.REGISTERED
+        logger.info(f"Application {application.application_id} successfully registered")
     
     def get_application(self, application_id: str) -> Optional[PatentApplication]:
         """Retrieve patent application by ID"""
